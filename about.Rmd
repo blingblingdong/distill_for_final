@@ -23,25 +23,79 @@ library(distill)
 library(rmarkdown)
 ```
 
-## 前言
+## The Harm of Fake Accounts to Social Communities and User
 
-在許多社交軟體詐騙案中，加害者往往透過「虛假的頭像」，換取受害者的信任<br>
-對於此猖獗的詐騙案中，社交軟體又是如何透過AI輔助管制，背後坐擁哪些技術？<br>
-近年來民眾對社交平台的不信任是否將影響技術發展？<br>
-這些技術又有哪些難以突破的限制？如何在隱私與安全之間找到平衡？
+### Exploiting Public Trust in Public Figures for Scams
+
+Facebook is filled with photos impersonating celebrities, using the names of stars and internet personalities to invite users into related investment groups, engaging in fraudulent activities
+
+### The users no longer trust the platform, and advertisers are no longer investing in advertising.
+
+the ongoing scams have reduced trust in Facebook, leading to a declining user base. Retaining users is now a crucial challenge. Additionally, an abundance of bots is manipulating discussions and sentiments on the platform, negatively impacting the online environment. Lastly, fake accounts are providing false feedback, impairing the effectiveness of ad targeting
+
+## Behavior Analysis
 
 
-## 架構
+## Image analysis
 
-1.生活實例
+### Image Recognition Algorithm:
 
-2.平台如和解決問題？背後關鍵技術為何？
-  
-3.技術與資訊困難
-  
-4.隱私與安全之抉擇？未來在哪？
+- Description: <br>
+Advanced image recognition algorithms typically rely on deep learning and artificial intelligence to analyze key features in images, aiming to identify patterns associated with forged or manipulated images.
 
-參考資料：
+- Working Principle:<br>
+These algorithms can detect inconsistencies, such as unnatural lighting, facial proportions that don't match, or signs of image manipulation.
+
+### Reverse Image Search:
+
+- Description: <br>
+Platforms use reverse image search tools to check if a profile picture appears elsewhere on the internet, which may indicate that the image has been stolen or the identity is fake.
+
+- Working : <br>
+Principle: By comparing the uploaded image with a vast image database, the platform can identify instances of the same image being used across multiple user profiles.
+
+
+### Self-Reporting Mechanism:
+
+- Description:<br>
+this is currently one of the most stable and effective ways to combat misuse. By establishing a reporting system and streamlining the reporting process, aided by AI-assisted review, the public is more willing to report violations. 
+
+- Working Principle:<br>
+Platforms integrate machine learning and human review, with machine learning automatically sifting through a large volume of reports, while human review teams further scrutinize potential false profiles to enhance detection accuracy.
+
+## Concern
+
+### Privacy Concerns
+
+Users may worry about the extent to which their personal information is being scrutinized and used by the Al system.
+
+### Erroneous Blocking 
+
+Legitimate user accounts may be mistakenly flagged as fake and subsequently blocked.This can lead to incovenience and frustration for users who have their accounts restricted without just cause
+
+### Restriction and Freedom of Speech
+
+Excessive cencorship or overzeaolous application of the AI system could result in the suppression of content that is not fraudulent 
+
+## Future technologies
+
+### Enhance privacy protection measures
+
+Develop AL technologies that are more transparent and respect user privacy.
+
+### Enhance algorithmic accuracy
+
+Continuously update and improve algorithms to minimize incorrect blocking of       legitimate account
+
+### User Engagement and Feedback
+
+Enable users to participate in identifying and reporting suspicious accounts to  improve system accuracy and effectiveness
+
+### Ongoing Technical Monitoring and Evaluation
+Regularly evaluate the effectiveness of the Ai system to ensure that it doesn’t infringe on users’ rights or restrict freedom of speech 
+
+
+## Reference：
 
 [fb關閉人臉識別技術](https://about.fb.com/news/2021/11/update-on-use-of-face-recognition/)
 
@@ -49,70 +103,7 @@ library(rmarkdown)
 
 [去識別化資料](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
 
-\pagebreak
 
-
-## 生活實例
-
-以虛假頭像在社交軟體行騙已非罕見之事。
-從盜用受害者親友的頭像，配合身份訊息，獲取受害者信任，利用投資、借錢等方法騙取大量金錢。
-
-其他經常遇到的詐騙案例，例如在Instagram上，詐騙者會使用女性的個人資料照片並與女性互動。他們取得受害者的信任後，會邀請受害者見面並實施犯罪。
-
-我有一個朋友也經歷過，騙子透過社交軟體ig 聯繫到我朋友，他發來了一條訊息，用他朋友的臉告訴他，這是她的新帳號。然後，我的朋友看到
-他的頭像確實是他朋友的臉。然後他們聊了起來，聊了一會兒，騙子就向他借了錢，並藉口自己家裡發生意外家裡人有要住院動手術，目前拿不出來那麼多錢，我朋友毫不猶豫地立即把錢轉到了他提供的賬戶上，轉了之後他就再沒有回我朋友訊息了，我朋友還沒有意識到被騙了過了幾天朋友還一直追問他問題解決了嗎？最後他才意識到自己被騙了。
-
-在fb上也充滿假冒名人頭像的投資詐騙，透過假冒的投資參與者，助手等等，讓受害者踏入設計好的投資陷阱中。
-
-這些詐騙都利用假冒的頭像，換取受害者的信任，於此社交平台也祭出種種應對措施
-
-## 平台如和解決問題？背後關鍵技術為何？
-
-社交平台如FB和IG可以透過高級的圖像識別和反向圖像搜索技術來檢測虛假頭像，同時鼓勵使用者舉報可疑行為，由人工審查進一步處理。
-
-### 圖像識別算法：
-
-- 描述：先進的圖像識別算法通常基於深度學習和人工智慧，分析頭像中的關鍵特徵，以識別與偽造圖像相關的模式。
-
-- 工作原理：這些算法可以檢測不一致之處，如不自然的光線、臉部比例不符或圖像操縱的跡象。
-
-### 反向圖像搜索：
-
-- 描述：平台使用反向圖像搜索工具檢查頭像是否出現在互聯網的其他地方，這可能表明圖像被盜用或身份是虛假的。
-
-- 工作原理：通過將上傳的圖像與龐大的圖像數據庫進行比較，平台能夠識別同一圖像在多個用戶檔案中的使用情況。
-
-### 自主檢舉機制
-
-- 說明：雖然這不完全屬於人工智能或其他科技技術，但在目前是最穩定有效的打擊方式。透過建立檢舉制度，簡化檢舉流程，透過人工智能輔助審核，讓民眾更願意檢舉。
-
-- 工作原理：平台整合機器學習和人工審查，機器學習可以自動篩選大量報告，而人工審查團隊則進一步檢查可能的虛假頭像，提高檢測的精確性。
-
-## 技術與資訊隱憂   
-
-### 技術面
-
-建構這些技術需要多樣化且全面的資料集進行訓練。然而，獲得涵蓋假影像所有可能變化的資料集是具有挑戰性的。有限的訓練資料可能會導致模型難以推廣到新的和不可預見的操縱方法。這就是為什麼檢測虛假個人資料圖片仍然無法完美開發並且不能 100% 準確
-
-### 隱私面
-
-要建構這些資料，需要大量來自用戶的資料，而這些資料大多涉及用戶個人隱私問題，在不同地區又會受到不同限制，即使有技術、有時間與金錢，如何保障用戶隱私，說服用戶接受並採信平台也是一大挑戰。
-
-## 隱私與安全之抉擇？未來在哪？
-
-用戶自由、隱私權利似乎總站在網路管制的對立面，但透過技術創新與外部約束，也許能打破這樣的二元對立
-
-### 技術面：引用去識別話技術
-
-- 透過多方計算的方式，數個受管制的參與方彼此只交流計算結果，而不披露具體資料，保留隱私
-
-- 同態加密與差異隱私，前者讓使用者的資料在加密狀態下依然能被計算，但不會被獲取隱私數據，後者是在資料內加入干擾訊息，使個別資料難以識別，但整體資料分析依然可信。
-
-### 外部約束：第三方與法規約束
-
-- 法規框架: 政府可以制定相應的法規框架，要求社交平台實施檢測虛偽頭像的技術，以確保網絡上的資訊真實性。
-
-- 合規機制：由第三方機構監管，並且內部設立督責委員會，確保用戶隱私訊息不遭濫用
 
 
 
