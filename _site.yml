@@ -12,7 +12,7 @@ navbar:
     - text: "Chinese"
       href: ch.html
     - text: "presentation"  
-      href: presentation.html
+      href: https://xaringan.lsyverycute.com
     - icon: fab fa-github
       href: https://github.com/blingblingdong/distill_for_final
 output:

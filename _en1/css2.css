@@ -7,6 +7,7 @@
 .bkb{
   background-color:white;
   color: #0F2E3D;
+  font-family: Arial,fantasy;
 }
 
 .inverse2 {
@@ -19,6 +20,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  font-family: Arial,fantasy;
 }
 
 
