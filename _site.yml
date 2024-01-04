@@ -11,6 +11,8 @@ navbar:
       href: about.html
     - text: "Chinese"
       href: ch.html
+    - text: "presentation"  
+      href: presentation.html
     - icon: fab fa-github
       href: https://github.com/blingblingdong/distill_for_final
 output:
