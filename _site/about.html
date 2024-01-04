@@ -115,7 +115,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","description","output","main-color"]}},"value":[{"type":"character","attributes":{},"value":["AI在社交軟體中檢測偽造頭像"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["莊惠媤"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["董宸賓"]}]}]},{"type":"character","attributes":{},"value":["2023-11-21"]},{"type":"character","attributes":{},"value":["計算機概論報告整理\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","theme"]}},"value":[{"type":"logical","attributes":{},"value":[false]},{"type":"character","attributes":{},"value":["css1.css"]}]}]},{"type":"character","attributes":{},"value":["#0F2E3D"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","date","description","output","main-color"]}},"value":[{"type":"character","attributes":{},"value":["AI在社交軟體中檢測偽造頭像"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["莊惠媤"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["董宸賓"]}]}]},{"type":"character","attributes":{},"value":["2023-11-21"]},{"type":"character","attributes":{},"value":["計算機概論報告整理\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","theme"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["css1.css"]}]}]},{"type":"character","attributes":{},"value":["#0F2E3D"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2111,7 +2111,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
-<a href="about.html">About</a>
+<a href="about.html">English</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2136,51 +2136,165 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 
 <div class="d-article">
-<p><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></p>
-<h2 id="the-harm-of-fake-accounts-to-social-communities-and-user">The Harm of Fake Accounts to Social Communities and User</h2>
-<h3 id="exploiting-public-trust-in-public-figures-for-scams">Exploiting Public Trust in Public Figures for Scams</h3>
-<p>Facebook is filled with photos impersonating celebrities, using the names of stars and internet personalities to invite users into related investment groups, engaging in fraudulent activities</p>
-<h3 id="the-users-no-longer-trust-the-platform-and-advertisers-are-no-longer-investing-in-advertising.">The users no longer trust the platform, and advertisers are no longer investing in advertising.</h3>
-<p>the ongoing scams have reduced trust in Facebook, leading to a declining user base. Retaining users is now a crucial challenge. Additionally, an abundance of bots is manipulating discussions and sentiments on the platform, negatively impacting the online environment. Lastly, fake accounts are providing false feedback, impairing the effectiveness of ad targeting</p>
-<h2 id="behavior-analysis">Behavior Analysis</h2>
-<h2 id="image-analysis">Image analysis</h2>
-<h3 id="image-recognition-algorithm">Image Recognition Algorithm:</h3>
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
 <ul>
-<li><p>Description: <br>
-Advanced image recognition algorithms typically rely on deep learning and artificial intelligence to analyze key features in images, aiming to identify patterns associated with forged or manipulated images.</p></li>
-<li><p>Working Principle:<br>
-These algorithms can detect inconsistencies, such as unnatural lighting, facial proportions that don’t match, or signs of image manipulation.</p></li>
+<li><a href="#the-harm-of-fake-accounts-to-social-communities-and-users" id="toc-the-harm-of-fake-accounts-to-social-communities-and-users">The Harm of Fake Accounts to Social Communities and Users</a>
+<ul>
+<li><a href="#exploiting-public-trust-in-public-figures-for-scams" id="toc-exploiting-public-trust-in-public-figures-for-scams">Exploiting Public Trust in Public Figures for Scams</a></li>
+<li><a href="#erosion-of-platform-trust" id="toc-erosion-of-platform-trust">Erosion of Platform Trust</a></li>
+<li><a href="#negative-impact-on-online-environment" id="toc-negative-impact-on-online-environment">Negative Impact on Online Environment</a></li>
+</ul></li>
+<li><a href="#facebooks-technological-approach-to-combating-fake-accounts" id="toc-facebooks-technological-approach-to-combating-fake-accounts">Facebook’s Technological Approach to Combating Fake Accounts</a></li>
+<li><a href="#facebooks-sybiledge-a-technological-leap-in-detecting-fake-accounts" id="toc-facebooks-sybiledge-a-technological-leap-in-detecting-fake-accounts">Facebook’s SybilEdge: A Technological Leap in Detecting Fake Accounts</a>
+<ul>
+<li><a href="#understanding-sybiledge" id="toc-understanding-sybiledge">Understanding SybilEdge</a></li>
+<li><a href="#the-two-stage-process-of-sybiledge" id="toc-the-two-stage-process-of-sybiledge">The Two-Stage Process of SybilEdge</a></li>
+<li><a href="#the-efficacy-of-sybiledge" id="toc-the-efficacy-of-sybiledge">The Efficacy of SybilEdge</a></li>
+<li><a href="#future-directions" id="toc-future-directions">Future Directions</a></li>
+</ul></li>
+<li><a href="#image-analysis" id="toc-image-analysis">Image analysis</a>
+<ul>
+<li><a href="#image-recognition-algorithm" id="toc-image-recognition-algorithm">Image Recognition Algorithm:</a></li>
+<li><a href="#reverse-image-search" id="toc-reverse-image-search">Reverse Image Search:</a></li>
+<li><a href="#self-reporting-mechanism" id="toc-self-reporting-mechanism">Self-Reporting Mechanism:</a></li>
+</ul></li>
+<li><a href="#concern" id="toc-concern">Concern</a>
+<ul>
+<li><a href="#privacy-concerns" id="toc-privacy-concerns">Privacy Concerns</a></li>
+<li><a href="#erroneous-blocking" id="toc-erroneous-blocking">Erroneous Blocking</a></li>
+<li><a href="#restriction-and-freedom-of-speech" id="toc-restriction-and-freedom-of-speech">Restriction and Freedom of Speech</a></li>
+</ul></li>
+<li><a href="#solutions" id="toc-solutions">Solutions</a>
+<ul>
+<li><a href="#de-identification-techniques" id="toc-de-identification-techniques">De-identification Techniques</a></li>
+<li><a href="#external-constraints" id="toc-external-constraints">External Constraints</a></li>
+</ul></li>
+<li><a href="#reference" id="toc-reference">Reference：</a></li>
+</ul>
+</nav>
+</div>
+<p><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></p>
+<h2 id="the-harm-of-fake-accounts-to-social-communities-and-users">The Harm of Fake Accounts to Social Communities and Users</h2>
+<p>Social media platforms, particularly Facebook, have become breeding grounds for fake accounts. These accounts not only undermine user trust but also have far-reaching impacts on the entire social ecosystem.</p>
+<figure>
+<img src="fb_2.jpeg" alt="fake account" />
+<figcaption aria-hidden="true">fake account</figcaption>
+</figure>
+<h3 id="exploiting-public-trust-in-public-figures-for-scams">Exploiting Public Trust in Public Figures for Scams</h3>
+<ul>
+<li><p>Celebrity Impersonation: Numerous fake accounts use photos and names of celebrities or internet personalities to lure users into joining investment groups, leading to fraudulent activities.
+Misleading Information: These accounts disseminate false information, misleading users and potentially causing financial losses.
+Erosion of Platform Trust</p></li>
+<li><p>Declining User Trust: Continuous scam activities have eroded trust in Facebook, resulting in a decrease in its user base.
+Advertisers Withdrawal: Due to the trust crisis, advertisers have started to reduce their investments on the platform, further affecting its revenue.
+Negative Impact on Online Environment</p></li>
+</ul>
+<h3 id="erosion-of-platform-trust">Erosion of Platform Trust</h3>
+<ul>
+<li><p>Declining User Trust: Continuous scam activities have eroded trust in Facebook, resulting in a decrease in its user base.</p></li>
+<li><p>Advertisers Withdrawal: Due to the trust crisis, advertisers have started to reduce their investments on the platform, further affecting its revenue.</p></li>
+</ul>
+<h3 id="negative-impact-on-online-environment">Negative Impact on Online Environment</h3>
+<ul>
+<li><p>Bot Manipulation: A plethora of bot accounts manipulate discussions and sentiments on the platform, damaging the healthy online communication environment.</p></li>
+<li><p>False Feedback: Fake accounts provide misleading feedback, impairing the effectiveness of ad targeting and further harming the interests of advertisers and the platform.
+Challenges and Strategies</p></li>
+</ul>
+<h2 id="facebooks-technological-approach-to-combating-fake-accounts">Facebook’s Technological Approach to Combating Fake Accounts</h2>
+<p>Facebook, as a leading social media platform, has been at the forefront of combating the proliferation of fake accounts. Recognizing the detrimental impact these accounts have on user trust and platform integrity, Facebook has employed a multi-faceted technological strategy.</p>
+<p><img src="fb_1.jpeg" /></p>
+<h2 id="facebooks-sybiledge-a-technological-leap-in-detecting-fake-accounts">Facebook’s SybilEdge: A Technological Leap in Detecting Fake Accounts</h2>
+<p>Facebook’s ongoing battle against fake accounts has led to the development of SybilEdge, an innovative algorithm designed to scrutinize the patterns of friend requests and responses on the platform. This tool represents a significant stride in Facebook’s efforts to maintain the authenticity of its user base.</p>
+<h3 id="understanding-sybiledge">Understanding SybilEdge</h3>
+<p>SybilEdge operates by analyzing the friend request targets selected by new users and their corresponding acceptance or rejection rates. This approach is grounded in the observation that fake accounts typically exhibit a higher rejection rate compared to genuine accounts. However, the challenge lies in the fact that not all requests from real users are accepted, and not all fake users are consistently rejected.</p>
+<p><img src="fb_3.png" /></p>
+<h3 id="the-two-stage-process-of-sybiledge">The Two-Stage Process of SybilEdge</h3>
+<ul>
+<li><p>Training the Model: Initially, Facebook observed data over a period, using outputs from behavioral classifiers that flagged accounts as abusive based on actual abuse. This phase helped in setting up the necessary model parameters.</p></li>
+<li><p>Real-Time Analysis: For each friend request and response (accept or reject), SybilEdge updates the probability of the requester being fake. This dynamic approach allows for a more nuanced and accurate detection of fake accounts.</p></li>
+</ul>
+<h3 id="the-efficacy-of-sybiledge">The Efficacy of SybilEdge</h3>
+<p>SybilEdge’s effectiveness is evident in its ability to discern fake accounts with as few as 20 friend requests. This is achieved by leveraging the differences in how users respond to friend requests from real versus fake accounts. The algorithm’s strength lies in its rapid classification, adversarial robustness, low complexity, interpretability, and robust training.</p>
+<h3 id="future-directions">Future Directions</h3>
+<p>Looking ahead, Facebook aims to further refine the detection of abusive accounts, making decisions faster and more confidently than what SybilEdge currently offers. This involves integrating feature-based and behavior-based models to enhance the platform’s security.</p>
+<h2 id="image-analysis">Image analysis</h2>
+<p>In the digital age, where visual content dominates social media, the authenticity of images has become a critical concern, especially in the context of fake accounts. Image analysis, leveraging advanced technologies like image recognition algorithms and reverse image search, plays a pivotal role in identifying and combating these fraudulent accounts. These technologies not only enhance the security of social media platforms but also preserve the integrity of online interactions.</p>
+<p>Image recognition algorithms use deep learning and AI to scrutinize images for signs of manipulation or forgery. Meanwhile, reverse image search tools help in verifying the originality of profile pictures, detecting whether an image has been copied or reused, which is a common trait of fake accounts. Together, these tools form a formidable line of defense against the misuse of images in creating or sustaining fake online identities.</p>
+<p><img src="fb_4.png" /></p>
+<h3 id="image-recognition-algorithm">Image Recognition Algorithm:</h3>
+<p>Description:</p>
+<p>Advanced image recognition algorithms are pivotal in the fight against fake accounts. Utilizing deep learning and artificial intelligence, these algorithms scrutinize images to identify patterns indicative of forgery or manipulation. They play a crucial role in maintaining the authenticity of user profiles on social media platforms.</p>
+<p>Working Principle:</p>
+<ul>
+<li><p>Detection of Anomalies: These algorithms are adept at spotting inconsistencies in images, such as unnatural lighting or distorted facial proportions, which are common in manipulated images.</p></li>
+<li><p>Pattern Recognition: They analyze the image’s key features, comparing them against known patterns of forgery, to determine the authenticity of the image.</p></li>
 </ul>
 <h3 id="reverse-image-search">Reverse Image Search:</h3>
+<p>Description:</p>
+<p>Reverse image search is a powerful tool used by platforms to verify the originality of profile pictures. It helps in identifying whether an image has been copied from the internet, suggesting potential identity theft or the creation of a fake account.</p>
+<p>Working Principle:</p>
 <ul>
-<li><p>Description: <br>
-Platforms use reverse image search tools to check if a profile picture appears elsewhere on the internet, which may indicate that the image has been stolen or the identity is fake.</p></li>
-<li><p>Working : <br>
-Principle: By comparing the uploaded image with a vast image database, the platform can identify instances of the same image being used across multiple user profiles.</p></li>
+<li><p>Image Comparison: The tool compares the uploaded profile image against a vast database of images available on the internet.</p></li>
+<li><p>Identification of Duplicates: If the same image is found in multiple places, especially on different profiles, it raises a red flag about the genuineness of the account.</p></li>
 </ul>
 <h3 id="self-reporting-mechanism">Self-Reporting Mechanism:</h3>
 <ul>
-<li><p>Description:<br>
-this is currently one of the most stable and effective ways to combat misuse. By establishing a reporting system and streamlining the reporting process, aided by AI-assisted review, the public is more willing to report violations.</p></li>
-<li><p>Working Principle:<br>
-Platforms integrate machine learning and human review, with machine learning automatically sifting through a large volume of reports, while human review teams further scrutinize potential false profiles to enhance detection accuracy.</p></li>
+<li>Description:</li>
 </ul>
+<p>this is currently one of the most stable and effective ways to combat misuse. By establishing a reporting system and streamlining the reporting process, aided by AI-assisted review, the public is more willing to report violations.</p>
+<ul>
+<li>Working Principle:</li>
+</ul>
+<p>Platforms integrate machine learning and human review, with machine learning automatically sifting through a large volume of reports, while human review teams further scrutinize potential false profiles to enhance detection accuracy.</p>
 <h2 id="concern">Concern</h2>
+<p><img src="fb_5.jpeg" /></p>
 <h3 id="privacy-concerns">Privacy Concerns</h3>
-<p>Users may worry about the extent to which their personal information is being scrutinized and used by the Al system.</p>
+<p>Description:</p>
+<p>The use of AI in scrutinizing user accounts raises significant privacy concerns. Users are increasingly wary about the extent to which their personal information, including images and interactions, is analyzed by AI systems. This apprehension stems from the fear of intrusive surveillance and misuse of personal data.</p>
+<p>Implications:</p>
+<ul>
+<li><p>Trust Issues: Users may feel their privacy is being invaded, leading to a lack of trust in the platform.</p></li>
+<li><p>Data Security: Concerns about how securely the data is stored and who has access to it.</p></li>
+</ul>
 <h3 id="erroneous-blocking">Erroneous Blocking</h3>
-<p>Legitimate user accounts may be mistakenly flagged as fake and subsequently blocked.This can lead to incovenience and frustration for users who have their accounts restricted without just cause</p>
+<p>Description:</p>
+<p>AI systems, while sophisticated, are not infallible. There is a risk of legitimate user accounts being incorrectly flagged as fake, leading to unwarranted blocking or restrictions.</p>
+<p>Implications:</p>
+<ul>
+<li><p>User Inconvenience: Legitimate users may face the frustration of having their accounts restricted without valid reason.</p></li>
+<li><p>Appeal Process: The need for an efficient system to review and rectify such errors.</p></li>
+</ul>
 <h3 id="restriction-and-freedom-of-speech">Restriction and Freedom of Speech</h3>
-<p>Excessive cencorship or overzeaolous application of the AI system could result in the suppression of content that is not fraudulent</p>
-<h2 id="future-technologies">Future technologies</h2>
-<h3 id="enhance-privacy-protection-measures">Enhance privacy protection measures</h3>
-<p>Develop AL technologies that are more transparent and respect user privacy.</p>
-<h3 id="enhance-algorithmic-accuracy">Enhance algorithmic accuracy</h3>
-<p>Continuously update and improve algorithms to minimize incorrect blocking of legitimate account</p>
-<h3 id="user-engagement-and-feedback">User Engagement and Feedback</h3>
-<p>Enable users to participate in identifying and reporting suspicious accounts to improve system accuracy and effectiveness</p>
-<h3 id="ongoing-technical-monitoring-and-evaluation">Ongoing Technical Monitoring and Evaluation</h3>
-<p>Regularly evaluate the effectiveness of the Ai system to ensure that it doesn’t infringe on users’ rights or restrict freedom of speech</p>
+<p>Description:</p>
+<p>The application of AI in monitoring content can inadvertently lead to excessive censorship. Overzealous filtering could suppress legitimate content, impacting users’ freedom of speech.</p>
+<p>Implications:</p>
+<ul>
+<li><p>Content Suppression: Legitimate expressions or discussions might be unfairly restricted.</p></li>
+<li><p>Balancing Act: Platforms need to find a balance between preventing abuse and preserving freedom of expression.</p></li>
+</ul>
+<h2 id="solutions">Solutions</h2>
+<h3 id="de-identification-techniques">De-identification Techniques</h3>
+<p>De-identification in AI involves methods to protect user privacy by ensuring that personal data cannot be traced back to an individual. This is crucial in maintaining user trust and complying with privacy regulations.</p>
+<ul>
+<li>Multi-Party Computation (MPC): This technique allows multiple parties to jointly compute a function over their inputs while keeping those inputs private. MPC is particularly useful in scenarios where sharing raw data is sensitive or risky.</li>
+</ul>
+<p><img src="fb_8.png" /></p>
+<ul>
+<li>Homomorphic Encryption: This form of encryption enables computation on ciphertexts, generating an encrypted result that, when decrypted, matches the result of operations performed on the plaintext. It allows for data processing without exposing the actual data.</li>
+</ul>
+<p><img src="fb_7.png" /></p>
+<ul>
+<li>Differential Privacy: This approach adds noise to the data or queries on the data to provide privacy guarantees. It ensures that the removal or addition of a single database item does not significantly affect the outcome of any analysis, thus masking the presence of individuals in a dataset.</li>
+</ul>
+<p><img src="fb_6.png" /></p>
+<h3 id="external-constraints">External Constraints</h3>
+<p>To ensure that AI technologies are used responsibly and ethically, external constraints are necessary. These include regulatory frameworks and oversight mechanisms.</p>
+<ul>
+<li><p>Regulatory Frameworks: Establishing laws and regulations that govern the use of AI, particularly in areas like data privacy, bias prevention, and ethical usage, is crucial. These frameworks provide guidelines and boundaries for AI development and deployment.</p></li>
+<li><p>Oversight by Third-Party Organizations and Internal Accountability Committees: Independent oversight bodies can monitor AI applications to ensure compliance with ethical standards and regulations. Similarly, internal committees within organizations can oversee AI projects to ensure they align with ethical guidelines and business values.</p></li>
+</ul>
 <h2 id="reference">Reference：</h2>
 <p><a href="https://about.fb.com/news/2021/11/update-on-use-of-face-recognition/">fb關閉人臉識別技術</a></p>
 <p><a href="https://www.v7labs.com/blog/image-recognition-guide">圖像識別算法介紹</a></p>
