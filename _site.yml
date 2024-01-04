@@ -1,5 +1,5 @@
 name: "distill_for_final"
-title: "期末專案介紹"
+title: "Combating Fake accounts"
 description: |
   My Website
 output_dir: "_site"
@@ -9,4 +9,11 @@ navbar:
       href: index.html
     - text: "English"
       href: about.html
-output: distill::distill_article
+    - text: "Chinese"
+      href: ch.html
+    - icon: fab fa-github
+      href: https://github.com/blingblingdong/distill_for_final
+output:
+  distill::distill_article:
+    css: "www/css1.css"
+

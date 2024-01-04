@@ -1,15 +1,16 @@
 ---
-title: "AI在社交軟體中檢測偽造頭像"
+title: "How Facebook Combats Fake User Accounts"
 author:
   - name: "莊惠媤"
   - name: "董宸賓"
-date: "2023-11-21"
+  - name: "謝長恩 "
+date: "2024-01-04"
 description: |
-  計算機概論報告整理
+  Whether it's fake celebrity investment scams or internet violence led by troll armies, fake accounts not only impact user interests but also harm the commercial interests of the community. This project takes Facebook, the most widely used platform, as an example to explore how it utilizes AI technology to solve these problems and the underlying risks involved.
 output:
   distill::distill_article: 
    toc: True
-   theme: "css1.css"
+   theme: "www/css1.css"
 main-color: "#0F2E3D"
 # knit: pagedown::chrome_print
 ---
@@ -27,7 +28,7 @@ library(rmarkdown)
 
 Social media platforms, particularly Facebook, have become breeding grounds for fake accounts. These accounts not only undermine user trust but also have far-reaching impacts on the entire social ecosystem.
 
-![fake account](fb_2.jpeg)
+![fake account](www/fb_2.jpeg)
 
 
 
@@ -61,7 +62,7 @@ Challenges and Strategies
 
 Facebook, as a leading social media platform, has been at the forefront of combating the proliferation of fake accounts. Recognizing the detrimental impact these accounts have on user trust and platform integrity, Facebook has employed a multi-faceted technological strategy.
 
-![](fb_1.jpeg)
+![](www/fb_1.jpeg)
 
 
 
@@ -73,7 +74,7 @@ Facebook's ongoing battle against fake accounts has led to the development of Sy
 
 SybilEdge operates by analyzing the friend request targets selected by new users and their corresponding acceptance or rejection rates. This approach is grounded in the observation that fake accounts typically exhibit a higher rejection rate compared to genuine accounts. However, the challenge lies in the fact that not all requests from real users are accepted, and not all fake users are consistently rejected.
 
-![](fb_3.png)
+![](www/fb_3.png)
 
 
 ### The Two-Stage Process of SybilEdge
@@ -97,7 +98,7 @@ In the digital age, where visual content dominates social media, the authenticit
 
 Image recognition algorithms use deep learning and AI to scrutinize images for signs of manipulation or forgery. Meanwhile, reverse image search tools help in verifying the originality of profile pictures, detecting whether an image has been copied or reused, which is a common trait of fake accounts. Together, these tools form a formidable line of defense against the misuse of images in creating or sustaining fake online identities.
 
-![](fb_4.png)
+![](www/fb_4.png)
 
 ### Image Recognition Algorithm:
 
@@ -136,7 +137,7 @@ Platforms integrate machine learning and human review, with machine learning aut
 
 ## Concern
 
-![](fb_5.jpeg)
+![](www/fb_5.jpeg)
 
 ### Privacy Concerns
 
@@ -183,15 +184,15 @@ De-identification in AI involves methods to protect user privacy by ensuring tha
 
 - Multi-Party Computation (MPC): This technique allows multiple parties to jointly compute a function over their inputs while keeping those inputs private. MPC is particularly useful in scenarios where sharing raw data is sensitive or risky.
 
-![](fb_8.png)
+![](www/fb_8.png)
 
 - Homomorphic Encryption: This form of encryption enables computation on ciphertexts, generating an encrypted result that, when decrypted, matches the result of operations performed on the plaintext. It allows for data processing without exposing the actual data.
 
-![](fb_7.png)
+![](www/fb_7.png)
 
 - Differential Privacy: This approach adds noise to the data or queries on the data to provide privacy guarantees. It ensures that the removal or addition of a single database item does not significantly affect the outcome of any analysis, thus masking the presence of individuals in a dataset.
 
-![](fb_6.png)
+![](www/fb_6.png)
 
 
 ### External Constraints

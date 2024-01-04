@@ -1,5 +1,5 @@
 ---
-title: "期末專案-"
+title: "網站介紹"
 description: |
   Welcome to the website. I hope you enjoy it!
 site: distill::distill_website
@@ -7,13 +7,40 @@ site: distill::distill_website
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(htmltools)
 
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
 
 ```
 
+
+```{r, echo=FALSE}
+
+div(class = "slide about-section1",
+            h3("Author：董宸賓"),
+            p("Project：OOP1期末"),
+            p("Source：", a(href="https://github.com/blingblingdong/Java_statistic", "Github")),
+            p("© 2023 . Some rights reserved. This work is licensed under ",
+              a(href = "https://creativecommons.org/licenses/by-nc/4.0/", 
+                "CC BY-NC 4.0", target = "_blank"), ".")
+        )
+
+
+```
+
+
 ```{r}
-knitr::include_url("https://xaringan.lsyverycute.com")
+
+```
+
+
+
+
+
+
+
+```{r}
+# knitr::include_url("https://xaringan.lsyverycute.com")
 ```
 
